@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Freeman&family=Itim&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.weaponname {
+  color: rgb(255, 168, 61);
+  font-weight: bold;
+  font-family: "Allerta Stencil", sans-serif;
+  font-variant: initial;
+  font-size: 3rem;
+}
+
+.ammo {
+  color: #ffff;
+  font-family: "Allerta Stencil", sans-serif;
+  font-size: 2rem;
+}
+
+.description {
+  color: #999999;
+}
+
+.w-50 {
+  width: 50px;
+}
+
+::-webkit-scrollbar {
+  margin-top: 1%;
+  width: 0.3vw;
+  height: 0.35vw;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 168, 61);
+  height: 0.3vw;
+  border-radius: 100vw;
+}
